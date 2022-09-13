@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.add {
+    display: block;
+}
